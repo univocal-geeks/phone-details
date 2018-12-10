@@ -1,8 +1,14 @@
+#############################################
+####  Extract Phone deails using Python  ####
+####        By -Univocal Geeks           ####
+#############################################
+
 import requests
 import bs4
 from urllib.request import urlopen as uReq
-# Creating URL
 
+
+# Creating URL
 phone = input('Enter phone name: ')
 phone = phone.replace(' ', '%20')
 phone = phone.replace('.', '')
